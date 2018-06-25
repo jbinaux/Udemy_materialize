@@ -15,3 +15,42 @@
 {
   width: 30vw;
 }
+
+@media (min-width: 1200px)
+{
+  .text-foot
+  {
+    margin-top: 5%
+  }
+}
+
+.text-foot h1
+{
+  font-size: 3em;
+}
+
+.text-foot h2
+{
+  font-size: 2em;
+}
+
+.udemy-container
+{
+  display: flex;
+  height: 10vh;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background: linear-gradient(-45deg,#ec5252,#6e1a52);
+  background: -webkit-linear-gradient(-45deg,#ec5252,#6e1a52);
+}
+
+.udemy-container .content
+{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+::-moz-placeholder
+{
+  color: black;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <meta charset="utf-8">
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -21,16 +22,16 @@
         </ul>
         <nav class"">
           <div class="nav-wrapper white row">
-            <a href="#" class="brand-logo"> <img src="images/logo-coral.svg"></a>
+            <a href="#" class="brand-logo left"> <img src="images/logo-coral.svg"></a>
             <ul class="hide-on-med-and-down right">
               <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1"><i class="material-icons left">view_module</i>Categories</a></li>
-              <li><div class="input-field right" id="search-navbar">
-                <input id="search" type="search" required>
-                <label class="label-icon" for="search"><i class="material-icons black-text">search</i></label>
-                <i class="material-icons black-text">close</i>
+              <li><div class="input-field" id="search-navbar">
+                <input id="search" type="search" placeholder="chercher des cours" required>
+                <label class="label-icon" for="search"><i class="material-icons red-text">search</i></label>
+                <i class="material-icons red-text">close</i>
               </div></li>
               <li><a class="waves-effect waves-teal btn-flat">Devenir formatteur</a></li>
-              <li><a class="btn-floating waves-effect waves-teal btn-flat white"><i class="material-icons black-text">add_shopping_cart</i></a></li>
+              <li><a class="btn-floating waves-effect waves-teal btn-flat white"><i class="material-icons black-text">local_grocery_store</i></a></li>
               <li> <a class="waves-effect waves-teal btn-flat">Se connecter</a></li>
               <li> <a class="waves-effect waves-teal btn-flat red white-text">S'inscrire</a></li>
             </ul>
@@ -38,9 +39,43 @@
           </div>
         </nav>
       </header>
-      <div class="image-foot">
-
+      <div class="image-foot row">
+        <div class="col s5 text-foot white-text">
+          <h1>Ouvrez votre compteur avec des cours au prix de 9,99 € </h1>
+          <h2>Profitez de notre meilleur prix sur les cours : à partir de 9,99 € </h2>
+          <div class="input-field white">
+            <input id="search" type="search" placeholder="Que souhaitez-vous apprendre ?" required>
+            <label class="label-icon" for="search"><i class="material-icons red-text">search</i></label>
+            <i class="material-icons red-text">close</i>
+          </div>
+        </div>
       </div>
+      <div class="row udemy-container white-text">
+        <div class="content">
+          <i class="material-icons medium left">radio_button_checked</i>
+          <p>
+            <b>65 000 cours en ligne</b><br/>
+            Explorez une variété de sujets d'actualité
+          </p>
+        </div>
+        <div class="content">
+          <i class="material-icons medium left">query_builder</i>
+          <p>
+            <b>Cours donnés par des experts</b><br/>
+            Trouvez le formateur qui vous correspond
+          </p>
+        </div>
+        <div class="content">
+          <i class="material-icons medium left">restore</i>
+          <p>
+            <b>Accès illimité</b><br/>
+            Apprenez à votre rythme
+          </p>
+        </div>
+      </div>
+
+
+
       <script type="text/javascript" src="test.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
