@@ -2254,7 +2254,7 @@ $jscomp.polyfill = function (e, r, p, m) {
        * @prop {Boolean} [autoFocus=true] - Automatically focus dropdown el for keyboard
        * @prop {Boolean} [constrainWidth=false] - Constrain width to width of the button
        * @prop {Element} container - Container element to attach dropdown to (optional)
-       * @prop {Boolean} [coverTrigger=true] - Place dropdown over trigger
+       * @prop {Boolean} [coverTrigger=false] - Place dropdown over trigger
        * @prop {Boolean} [closeOnClick=true] - Close on click of dropdown item
        * @prop {Boolean} [hover=true] - Open dropdown on hover
        * @prop {Number} [inDuration=150] - Duration of open animation in ms
