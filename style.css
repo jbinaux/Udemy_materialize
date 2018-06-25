@@ -8,10 +8,10 @@
   background-image: url(images/42c7fc6c-ada8-41fa-ac3d-df89623ca315.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 50vh;
+  height: 60vh;
 }
 
-#search
+#search-navbar
 {
-  border: solid 1px;
+  width: 30vw;
 }
