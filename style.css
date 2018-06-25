@@ -7,8 +7,14 @@
 {
   background-image: url(images/42c7fc6c-ada8-41fa-ac3d-df89623ca315.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  margin: 0;
   height: 60vh;
+}
+
+.image-foot .text-foot
+{
+  max-height: 500px;
 }
 
 #search-navbar
@@ -32,6 +38,19 @@
 .text-foot h2
 {
   font-size: 2em;
+}
+
+@media (max-width: 650px)
+{
+  .text-foot h1
+  {
+    font-size: 2em;
+  }
+
+  .text-foot h2
+  {
+    font-size: 1.5em;
+  }
 }
 
 .udemy-container
