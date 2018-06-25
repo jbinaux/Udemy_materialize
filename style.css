@@ -8,6 +8,7 @@
   background-image: url(images/42c7fc6c-ada8-41fa-ac3d-df89623ca315.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin: 0;
   height: 60vh;
 }
@@ -32,12 +33,12 @@
 
 .text-foot h1
 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .text-foot h2
 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 @media (max-width: 650px)
@@ -49,7 +50,7 @@
 
   .text-foot h2
   {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -59,7 +60,9 @@
   height: 10vh;
   flex-wrap: nowrap;
   justify-content: space-around;
+  background-position: left center;
   background: linear-gradient(-45deg,#ec5252,#6e1a52);
+  background: -moz-linear-gradient(-45deg,#ec5252,#6e1a52);
   background: -webkit-linear-gradient(-45deg,#ec5252,#6e1a52);
 }
 
@@ -72,4 +75,26 @@
 ::-moz-placeholder
 {
   color: black;
+}
+
+.image-shadow
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+}
+.card:hover .image-shadow
+{
+  background-color: rgba(0,0,0,.5);
+}
+
+.card:hover
+{
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.14),0 9px 3px -6px rgba(0,0,0,0.12),0 3px 15px 0 rgba(0,0,0,0.2);
+}
+
+.card-content p:nth-of-type(2)
+{
+  text-align: right;
 }
