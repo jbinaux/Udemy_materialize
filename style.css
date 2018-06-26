@@ -99,6 +99,12 @@
   text-align: right;
 }
 
+.section
+{
+  overflow-y: hidden;
+  height: 50%;
+}
+
 .section h2
 {
   font-size: 2em;
